@@ -1,0 +1,9 @@
+title: Biopragmatics
+github_username:  biopragmatics
+# url: "https://biopragmatics.org"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
