@@ -28,13 +28,13 @@ infrastructure for biomedical semantics and pragmatics.
 {{ entry.description }}
 <br />
 {% if entry contains "url" %}
-<a href="{{ entry.url }}">Website</a>
+<a href="{{ entry.url }}">Website</a>&nbsp;&nbsp;
 {% endif %}
 {% if entry contains "api" %}
-<a href="{{ entry.api }}">API</a>
+<a href="{{ entry.api }}">API</a>&nbsp;&nbsp;
 {% endif %}
 {% if entry contains "docs" %}
-<a href="{{ entry.docs }}">Docs</a>
+<a href="{{ entry.docs }}">Docs</a>&nbsp;&nbsp;
 {% endif %}
 </div>
 {% endfor %}
