@@ -9,7 +9,7 @@ The Biopragmatics Stack is a collection of interlinked software packages that pr
 infrastructure for biomedical semantics and pragmatics.
 
 {% for entry in site.data.software %}
-<div style="padding-bottom: 10px;">
+<div style="padding-bottom: 15px;">
 {% if entry contains "logo" %}
 <img src="{{ entry.logo }}" alt="{{ entry.name }} Logo" style="float: left; max-height: 85px; max-width: 85px; margin-right: 15px" />
 {% endif %}
