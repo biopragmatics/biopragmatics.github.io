@@ -2,25 +2,25 @@
   url: https://bioregistry.io
   github: bioregistry/bioregistry
   description: An integrative meta-registry of biomedical nomenclatures
-  logo: /img/logos/bioregistry.svg
+  logo: /img/bioregistry.svg
 
 - name: Bioversions
   github: cthoyt/bioversions
   description: A service for tracking the current versions of biomedical ontologies, databases, and semantic spaces.
-  logo: /img/logos/bioversions.ong
+  logo: /img/bioversions.ong
 
 - name: Biomappings
   github: biomappings/biomappings
   description: Community curated and predicted equivalences and related mappings between named biological entities that are not available from primary sources.
-  logo: /img/logos/biomappings.png
+  logo: /img/biomappings.png
 
 - name: PyOBO
   github: pyobo/pyobo
   description: A software packaging for unified access to biomedical ontologies, databases, and semantic spaces.
-  logo: /img/logos/pyobo.png
+  logo: /img/pyobo.png
 
 - name: Biolookup
   url: http://biolookup.io
   github: biolookup/biolookup
   description: A web service for retrieving metadata and ontological information about biomedical entities
-  logo: /img/logos/biolookup.svg
+  logo: /img/biolookup.svg
