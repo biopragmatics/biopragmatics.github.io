@@ -22,11 +22,12 @@ infrastructure for biomedical semantics and pragmatics.
 <br />
 {{ entry.description }}
 <br />
+<a href="{{ entry.github }}">Source Code</a>&nbsp;&nbsp;
 {% if entry contains "url" %}
 <a href="{{ entry.url }}">Website</a>&nbsp;&nbsp;
 {% endif %}
 {% if entry contains "api" %}
-<a href="{{ entry.api }}">API</a>&nbsp;&nbsp;
+<a href="{{ entry.api }}">RESTful API</a>&nbsp;&nbsp;
 {% endif %}
 {% if entry contains "docs" %}
 <a href="{{ entry.docs }}">Docs</a>&nbsp;&nbsp;
