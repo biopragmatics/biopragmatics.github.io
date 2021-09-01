@@ -11,14 +11,9 @@ infrastructure for biomedical semantics and pragmatics.
 {% for entry in site.data.software %}
 <div style="padding-bottom: 10px;">
 {% if entry contains "logo" %}
-<img src="{{ entry.logo }}" alt="{{ entry.name }} Logo" style="float: left; max-height: 75px; max-width: 75px; margin-right: 15px" />
+<img src="{{ entry.logo }}" alt="{{ entry.name }} Logo" style="float: left; max-height: 85px; max-width: 85px; margin-right: 15px" />
 {% endif %}
-<strong><a href="https://github.com/{{ entry.github }}">{{ entry.name }}</a></strong>
-{% if entry contains "github" %}
-      <a href="https://github.com/{{ entry.github }}">
-      <img alt="GitHub logo" src="/img/github-icon.svg" width="16" height="16" />
-      </a>
-{% endif %}
+<strong><a href="https://github.com/{{ entry.github }}">{{ entry.name }}</a>{% if entry contains "github" %}&nbsp;<img alt="GitHub logo" src="/img/github-icon.svg" width="16" height="16" />{% endif %}</strong>
 {% if entry contains "wikidata" %}
     <a href="https://scholia.toolforge.org/topic/{{ entry.wikidata }}">
     <img alt="WikiData logo" src="/img/wikidata_logo.svg" height="16" />
