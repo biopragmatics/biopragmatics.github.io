@@ -26,6 +26,16 @@ infrastructure for biomedical semantics and pragmatics.
 {% endif %}
 <br />
 {{ entry.description }}
+<br />
+{% if entry contains "url" %}
+<a href="{{ entry.url }}">Website</a>
+{% endif %}
+{% if entry contains "api" %}
+<a href="{{ entry.api }}">API</a>
+{% endif %}
+{% if entry contains "docs" %}
+<a href="{{ entry.docs }}">Docs</a>
+{% endif %}
 </div>
 {% endfor %}
 
