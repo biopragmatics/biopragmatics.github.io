@@ -8,6 +8,9 @@ layout: home
 The Biopragmatics Stack is a collection of interlinked software packages that provide the
 infrastructure for biomedical semantics and pragmatics.
 
+Our docker images can be found
+on <i class="fab fa-docker"></i> [DockerHub](https://hub.docker.com/r/biopragmatics).
+
 {% for entry in site.data.software %}
 <div style="padding-bottom: 20px;">
 {% if entry contains "logo" %}
@@ -31,6 +34,9 @@ infrastructure for biomedical semantics and pragmatics.
 {% endif %}
 {% if entry contains "docs" %}
 <a href="{{ entry.docs }}"><i class="fas fa-book"></i> Docs</a>&nbsp;&nbsp;
+{% endif %}
+{% if entry contains "docker" %}
+<a href="https://hub.docker.com/r/{{ entry.docker }}"><i class="fab fa-docker"></i> Docker</a>&nbsp;&nbsp;
 {% endif %}
 </div>
 {% endfor %}

@@ -26,7 +26,8 @@
 
 - name: Biolookup
   url: http://biolookup.io
-  github: biolookup/biolookup
+  github: biopragmatics/biolookup
+  docker: biopragmatics/biolookup
   description: A web service for retrieving metadata and ontological information about biomedical entities
   logo: /img/biolookup.svg
   api: http://biolookup.io/apidocs/
