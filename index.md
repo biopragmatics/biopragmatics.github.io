@@ -15,42 +15,19 @@ infrastructure for biomedical semantics and pragmatics.
 {% endif %}
 <strong><a href="https://github.com/{{ entry.github }}">{{ entry.name }}</a></strong>
 {% if entry contains "github" %}
-      <a href="https://github.com/in/{{ entry.github }}">
-      <img alt="GitHub logo" src="/img/logos/github-icon.svg" width="16" height="16" />
+      <a href="https://github.com/{{ entry.github }}">
+      <img alt="GitHub logo" src="/img/github-icon.svg" width="16" height="16" />
       </a>
 {% endif %}
 {% if entry contains "wikidata" %}
     <a href="https://scholia.toolforge.org/topic/{{ entry.wikidata }}">
-    <img alt="WikiData logo" src="/img/logos/wikidata_logo.svg" height="16" />
+    <img alt="WikiData logo" src="/img/wikidata_logo.svg" height="16" />
     </a>
 {% endif %}
 <br />
 {{ entry.description }}
 </div>
 {% endfor %}
-
-
-Bioregistry
-
-What resources exist that give names and stable identifiers to biomedical entities?
-
-
-
-Bioversions
-
-What are the current versions of each biomedical resource?
-
-Biomappings
-
-Which resources describe the same biomedical entities, but with different identifiers?
-
-PyOBO
-
-Biolookup
-
-What is the name for any given biomedical entity?
-
-http://biolookup.io
 
 ## Acknowledgements
 
