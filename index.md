@@ -11,7 +11,7 @@ infrastructure for biomedical semantics and pragmatics.
 {% for entry in site.data.software %}
 <div style="padding-bottom: 10px;">
 {% if entry contains "logo" %}
-<img src="{{ entry.logo }}" alt="{{ entry.name }} Logo" style="float: left; max-height: 50px; max-width: 50px; margin-right: 15px" />
+<img src="{{ entry.logo }}" alt="{{ entry.name }} Logo" style="float: left; max-height: 75px; max-width: 75px; margin-right: 15px" />
 {% endif %}
 <strong><a href="https://github.com/{{ entry.github }}">{{ entry.name }}</a></strong>
 {% if entry contains "github" %}
