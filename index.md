@@ -5,7 +5,60 @@ layout: home
   <img src="https://raw.githubusercontent.com/biopragmatics/biopragmatics.github.io/master/img/biopragmatics.png" height="150">
 </p>
 
-<p align="center">
-    While biosemantics describe the names and identifies of biological entities, it doesn’t consider their context - their complex relationships. For this, we have <b>biopragmatics</b>.
-</p>
-  
+The Biopragmatics Stack is a collection of interlinked software packages that provide the
+infrastructure for biomedical semantics and pragmatics.
+
+{% for entry in site.data.software %}
+<div style="padding-bottom: 10px;">
+{% if entry contains "logo" %}
+<img src="{{ entry.logo }}" alt="{{ entry.name }} Logo" style="float: left; max-height: 50px; max-width: 50px; margin-right: 15px" />
+{% endif %}
+<strong><a href="https://github.com/{{ entry.github }}">{{ entry.name }}</a></strong>
+{% if entry contains "github" %}
+      <a href="https://github.com/in/{{ entry.github }}">
+      <img alt="GitHub logo" src="/img/logos/github-icon.svg" width="16" height="16" />
+      </a>
+{% endif %}
+{% if entry contains "wikidata" %}
+    <a href="https://scholia.toolforge.org/topic/{{ entry.wikidata }}">
+    <img alt="WikiData logo" src="/img/logos/wikidata_logo.svg" height="16" />
+    </a>
+{% endif %}
+<br />
+{{ entry.description }}
+</div>
+{% endfor %}
+
+
+Bioregistry
+
+What resources exist that give names and stable identifiers to biomedical entities?
+
+
+
+Bioversions
+
+What are the current versions of each biomedical resource?
+
+Biomappings
+
+Which resources describe the same biomedical entities, but with different identifiers?
+
+PyOBO
+
+Biolookup
+
+What is the name for any given biomedical entity?
+
+http://biolookup.io
+
+## Acknowledgements
+
+The Biopragmatics Stack is developed with ❤️ in 🇩🇪 and 🇺🇸 by
+the [INDRA Lab](https://indralab.github.io) in the
+[Laboratory of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology)
+and the [Harvard Program in Therapeutic Science (HiTS)](https://hits.harvard.edu) at
+[Harvard Medical School](https://hms.harvard.edu).
+
+It's funded by the DARPA Automating Scientific Knowledge Extraction (ASKE) program under award
+HR00111990009 and the DARPA Young Faculty Award W911NF2010255 (PI: Benjamin M. Gyori).
