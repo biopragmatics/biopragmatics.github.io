@@ -22,15 +22,15 @@ infrastructure for biomedical semantics and pragmatics.
 <br />
 {{ entry.description }}
 <br />
-<a href="{{ entry.github }}">Source Code</a>&nbsp;&nbsp;
+<a href="https://github.com/{{ entry.github }}"><i class="fas fa-code"></i> Code</a>&nbsp;&nbsp;
 {% if entry contains "url" %}
-<a href="{{ entry.url }}">Website</a>&nbsp;&nbsp;
+<a href="{{ entry.url }}"><i class="fas fa-network-wired"></i> Website</a>&nbsp;&nbsp;
 {% endif %}
 {% if entry contains "api" %}
-<a href="{{ entry.api }}">RESTful API</a>&nbsp;&nbsp;
+<a href="{{ entry.api }}"><i class="fas fa-plane"></i> API</a>&nbsp;&nbsp;
 {% endif %}
 {% if entry contains "docs" %}
-<a href="{{ entry.docs }}">Docs</a>&nbsp;&nbsp;
+<a href="{{ entry.docs }}"><i class="fas fa-book"></i> Docs</a>&nbsp;&nbsp;
 {% endif %}
 </div>
 {% endfor %}
