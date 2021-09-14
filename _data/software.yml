@@ -1,9 +1,10 @@
 - name: Bioregistry
   url: https://bioregistry.io
   api: https://bioregistry.io/apidocs/
-  github: bioregistry/bioregistry
+  github: biopragmatics/bioregistry
   description: An integrative meta-registry of biomedical nomenclatures
   logo: /img/bioregistry.svg
+  docker: biopragmatics/bioregistry
 
 - name: Bioversions
   url: https://biopragmatics.github.io/bioversions
