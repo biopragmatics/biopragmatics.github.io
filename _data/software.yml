@@ -13,6 +13,7 @@
   description: A service for tracking the current versions of biomedical ontologies, databases, and semantic spaces.
   logo: /img/bioversions.png
   pypi: bioversions
+  docs: https://bioversions.readthedocs.io
 
 - name: Biomappings
   url: https://biopragmatics.github.io/biomappings
@@ -36,4 +37,5 @@
   description: A web service for retrieving metadata and ontological information about biomedical entities
   logo: /img/biolookup.svg
   api: http://biolookup.io/apidocs/
+  docs: https://biolookup.readthedocs.io
   pypi: biolookup
