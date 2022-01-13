@@ -50,5 +50,20 @@ the [INDRA Lab](https://indralab.github.io) in the
 and the [Harvard Program in Therapeutic Science (HiTS)](https://hits.harvard.edu) at
 [Harvard Medical School](https://hms.harvard.edu).
 
-It's funded by the DARPA Automating Scientific Knowledge Extraction (ASKE) program under award
-HR00111990009 and the DARPA Young Faculty Award W911NF2010255 (PI: Benjamin M. Gyori).
+## Funding
+
+The Biopragmatics Stack has been historically funded by the following awards:
+
+<table>
+  <tr>
+    <td>Funding Body</td>
+    <td>Name</td>
+    <td>Grant #</td>
+  </tr>
+  {% for entry in site.data.funding %}
+  <tr>
+    <td>{{ entry.funder }}</td>
+    <td>{{ entry.name }}{% if entry contains "pi" %}(PI: {{ entry.pi }}){% endif %}</td>
+    <td>{{ entry.id }}</td>
+  </tr>
+  {% endfor %}
