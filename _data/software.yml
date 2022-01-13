@@ -6,6 +6,7 @@
   logo: /img/bioregistry.svg
   docker: biopragmatics/bioregistry
   pypi: bioregistry
+  docs: https://bioregistry.readthedocs.io
 
 - name: Bioversions
   url: https://biopragmatics.github.io/bioversions
@@ -21,6 +22,7 @@
   description: Community curated and predicted equivalences and related mappings between named biological entities that are not available from primary sources.
   logo: /img/biomappings.png
   pypi: biomappings
+  docs: https://biomappings.readthedocs.io
 
 - name: PyOBO
   url: https://pyobo.readthedocs.io
