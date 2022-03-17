@@ -44,7 +44,7 @@ on <i class="fab fa-docker"></i> [DockerHub](https://hub.docker.com/r/biopragmat
 
 ## Acknowledgements
 
-The Biopragmatics Stack is developed with ❤️ in 🇩🇪 and 🇺🇸 by
+The Biopragmatics Stack is developed with ❤️ by
 the [INDRA Lab](https://indralab.github.io) in the
 [Laboratory of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology)
 and the [Harvard Program in Therapeutic Science (HiTS)](https://hits.harvard.edu) at
