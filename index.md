@@ -24,7 +24,9 @@ on <i class="fab fa-docker"></i> [DockerHub](https://hub.docker.com/r/biopragmat
 {{ entry.description }}
 <br />
 <a href="https://github.com/{{ entry.github }}"><i class="fas fa-code"></i> Code</a>&nbsp;&nbsp;
+{% if entry contains "pypi" %}
 <a href="https://pypi.org/project/{{ entry.pypi }}"><i class="fas fa-dragon"></i> PyPI</a>&nbsp;&nbsp;
+{% endif %}
 {% if entry contains "url" %}
 <a href="{{ entry.url }}"><i class="fas fa-network-wired"></i> Website</a>&nbsp;&nbsp;
 {% endif %}
