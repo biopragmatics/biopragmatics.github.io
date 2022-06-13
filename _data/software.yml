@@ -24,11 +24,18 @@
   pypi: biomappings
   docs: https://biomappings.readthedocs.io
 
+- name: Bioontologies
+  url: https://bioontologies.readthedocs.io
+  docs: https://bioontologies.readthedocs.io
+  github: biopragmatics/bioontologies
+  description: A wrapper around ROBOT and other low-level functionalities for biomedical ontologies.
+  pypi: bioontologies
+
 - name: PyOBO
   url: https://pyobo.readthedocs.io
   docs: https://pyobo.readthedocs.io
   github: pyobo/pyobo
-  description: A software packaging for unified access to biomedical ontologies, databases, and semantic spaces.
+  description: A software packaging for unified access to biomedical ontologies, databases, and semantic spaces using the OBO formalism.
   logo: /img/pyobo.png
   pypi: pyobo
 
