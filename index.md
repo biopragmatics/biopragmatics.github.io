@@ -62,6 +62,6 @@ The Biopragmatics Stack has been historically funded by the following awards:
   <tr>
     <td>{{ entry.funder }}</td>
     <td>{{ entry.name }}{% if entry contains "pi" %}(PI: {{ entry.pi }}){% endif %}</td>
-    <td>{{ entry.id }}</td>
+    <td><a href="{{ entry.link }}">{{ entry.id }}</a></td>
   </tr>
   {% endfor %}
