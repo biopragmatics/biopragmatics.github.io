@@ -29,6 +29,7 @@
   docs: https://bioontologies.readthedocs.io
   github: biopragmatics/bioontologies
   description: A wrapper around ROBOT and other low-level functionalities for biomedical ontologies.
+  logo: /img/bioontologies.png
   pypi: bioontologies
 
 - name: PyOBO
