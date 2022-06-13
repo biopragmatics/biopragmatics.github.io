@@ -13,9 +13,7 @@ on <i class="fab fa-docker"></i> [DockerHub](https://hub.docker.com/r/biopragmat
 
 {% for entry in site.data.software %}
 <div style="padding-bottom: 20px;">
-{% if entry contains "logo" %}
-<img src="{{ entry.logo }}" alt="{{ entry.name }} Logo" style="float: left; max-height: 85px; max-width: 85px; margin-right: 15px" />
-{% endif %}
+<img src="{% if entry contains "logo" %}{{ entry.logo }}{% else %}data:,{% endif %}" alt="{{ entry.name }} Logo" style="float: left; max-height: 85px; max-width: 85px; margin-right: 15px" />
 <strong><a href="https://github.com/{{ entry.github }}">{{ entry.name }}</a>{% if entry contains "github" %}&nbsp;<img alt="GitHub logo" src="/img/github-icon.svg" width="16" height="16" />{% endif %}</strong>
 {% if entry contains "wikidata" %}
     <a href="https://scholia.toolforge.org/topic/{{ entry.wikidata }}">
