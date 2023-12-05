@@ -29,6 +29,7 @@
   github: biopragmatics/semra
   description: Assembles and reasons over semantic mappings at scale with associated provenance and confidence models.
   pypi: semra
+  logo: /img/semra.svg
   docs: https://semra.readthedocs.io/
 
 - name: Biosynonyms
