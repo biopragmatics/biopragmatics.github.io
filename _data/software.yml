@@ -24,6 +24,13 @@
   pypi: biomappings
   docs: https://biomappings.readthedocs.io
 
+- name: Semantic Reasoning Assembler
+  url: https://biopragmatics.github.io/semra
+  github: biopragmatics/semra
+  description: Assembles and reasons over semantic mappings at scale with associated provenance and confidence models.
+  pypi: semra
+  docs: https://semra.readthedocs.io/
+
 - name: Biosynonyms
   github: biopragmatics/biosynonyms
   description: Community curated synonyms for biogical entities that are not available from primary sources.
