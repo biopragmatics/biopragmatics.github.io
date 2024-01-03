@@ -1,12 +1,17 @@
+- funder: Chan Zuckerberg Initiative
+  name: Advancing Data Integration and Discovery in Biomedicine with the Bioregistry
+  id: 2023-329850
+  link: https://gyorilab.github.io/#czi-bioregistry
+
 - funder: DARPA
   name: Automating Scientific Knowledge Extraction
   abbreviation: ASKE
   id: HR00111990009
-  link: https://indralab.github.io/#aske
+  link: https://gyorilab.github.io/#aske
 
 - funder: DARPA
   name: Young Faculty Award
   abbreviation: YFA
   pi: Benjamin M. Gyori
   id: W911NF2010255
-  link: https://indralab.github.io/#yfa
+  link: https://gyorilab.github.io/#yfa

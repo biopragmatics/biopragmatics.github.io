@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/biopragmatics/biopragmatics.github.io/master/img/biopragmatics.png" height="150">
 </p>
@@ -55,15 +56,20 @@ and the [Harvard Program in Therapeutic Science (HiTS)](https://hits.harvard.edu
 The Biopragmatics Stack has been historically funded by the following awards:
 
 <table>
+<thead>
   <tr>
     <td>Funding Body</td>
     <td>Name</td>
     <td>Grant #</td>
   </tr>
+</thead>
+<tbody>
   {% for entry in site.data.funding %}
   <tr>
     <td>{{ entry.funder }}</td>
-    <td>{{ entry.name }}{% if entry contains "pi" %}(PI: {{ entry.pi }}){% endif %}</td>
+    <td>{{ entry.name }}{% if entry contains "pi" %} (PI: {{ entry.pi }}){% endif %}</td>
     <td><a href="{{ entry.link }}">{{ entry.id }}</a></td>
   </tr>
   {% endfor %}
+</tbody>
+</table>
