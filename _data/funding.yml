@@ -4,6 +4,12 @@
   link: https://gyorilab.github.io/#czi-bioregistry
 
 - funder: DARPA
+  name: Automating Scientific Knowledge Extraction and Modeling
+  abbreviation: ASKEM
+  id: HR00112220036
+  link: https://gyorilab.github.io/#askem
+
+- funder: DARPA
   name: Automating Scientific Knowledge Extraction
   abbreviation: ASKE
   id: HR00111990009
