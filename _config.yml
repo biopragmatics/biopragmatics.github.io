@@ -1,8 +1,11 @@
 title: Biopragmatics Stack
-github_username:  biopragmatics
+github_username: biopragmatics
 
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+
+include:
+  - ".well-known/*"
