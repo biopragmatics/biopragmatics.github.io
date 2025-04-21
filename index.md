@@ -2,17 +2,19 @@
 layout: home
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/biopragmatics/biopragmatics.github.io/master/img/biopragmatics.png" height="150">
-</p>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vS3dvIX5EScSb9aIcjRmArJevZQEgKl2-mRbvcGwwmzAwyLUoBRltyKfTVYwsEMQOLMe3zHFxM3Ycfw/pub?w=2888&amp;h=1722">
 
-The Biopragmatics Stack is a collection of interlinked software packages that provide the
-infrastructure for biomedical semantics and pragmatics.
+The Biopragmatics Stack is a collection of interlinked software packages and
+data resources that provide the infrastructure for biomedical semantics and
+pragmatics.
 
-Our docker images can be found
-on <i class="fab fa-docker"></i> [DockerHub](https://hub.docker.com/r/biopragmatics).
+Elements in dashed boxes are planned for future work or exist outside the
+Biopragmatics stack.
+
+## Software
 
 {% for entry in site.data.software %}
+
 <div style="padding-bottom: 20px;">
 <img src="{% if entry contains "logo" %}{{ entry.logo }}{% else %}data:,{% endif %}" alt="{{ entry.name }} Logo" style="float: left; max-height: 85px; max-width: 85px; margin-right: 15px" />
 <strong><a href="https://github.com/{{ entry.github }}">{{ entry.name }}</a>{% if entry contains "github" %}&nbsp;<img alt="GitHub logo" src="/img/github-icon.svg" width="16" height="16" />{% endif %}</strong>
@@ -43,34 +45,17 @@ on <i class="fab fa-docker"></i> [DockerHub](https://hub.docker.com/r/biopragmat
 </div>
 {% endfor %}
 
-## Acknowledgements
+### Links
 
-The Biopragmatics Stack is developed with ❤️ by
-the [Gyori Lab for Computational Biomedicine](https://gyorilab.github.io) 
-at [Northeastern University](https://northeastern.edu) and previously at
-the [Laboratory of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology)
-and the [Harvard Program in Therapeutic Science (HiTS)](https://hits.harvard.edu) at
-[Harvard Medical School](https://hms.harvard.edu).
+- Our docker images can be found on <i class="fab fa-docker"></i>
+  [DockerHub](https://hub.docker.com/r/biopragmatics)
+- Our Python software can be found on [PyPI](https://pypi.org/org/biopragmatics)
 
-## Funding
+## Data Resources
 
-The Biopragmatics Stack has been historically funded by the following awards:
+### Persistent URLs (PURLs)
 
-<table>
-<thead>
-  <tr>
-    <td>Funding Body</td>
-    <td>Name</td>
-    <td>Grant #</td>
-  </tr>
-</thead>
-<tbody>
-  {% for entry in site.data.funding %}
-  <tr>
-    <td>{{ entry.funder }}</td>
-    <td>{{ entry.name }}{% if entry contains "pi" %} (PI: {{ entry.pi }}){% endif %}</td>
-    <td><a href="{{ entry.link }}">{{ entry.id }}</a></td>
-  </tr>
-  {% endfor %}
-</tbody>
-</table>
+The Biopragmatics Stack uses [https://w3id.org](https://w3id.org]) to create
+persistent uniform resource locators (PURLs) for various resources. These are
+configured on GitHub in the `.htaccess` file in
+[https://github.com/perma-id/w3id.org/tree/master/biopragmatics](https://github.com/perma-id/w3id.org).

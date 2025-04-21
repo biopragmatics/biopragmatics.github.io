@@ -1,6 +1,9 @@
 ---
 layout: page
-title: Data Standardization and Integration with the Bioregistry at Biocuration 2025
+title:
+  Data Standardization and Integration with the Bioregistry at Biocuration 2025
+type: workshop
+permalink: /workshops/biocuration2025
 ---
 
 The Bioregistry project (https://bioregistry.io,

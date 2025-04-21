@@ -11,7 +11,9 @@
 - name: Bioversions
   url: https://biopragmatics.github.io/bioversions
   github: biopragmatics/bioversions
-  description: A service for tracking the current versions of biomedical ontologies, databases, and semantic spaces.
+  description:
+    A service for tracking the current versions of biomedical ontologies,
+    databases, and semantic spaces.
   logo: /img/bioversions.png
   pypi: bioversions
   docs: https://bioversions.readthedocs.io
@@ -19,7 +21,9 @@
 - name: Biomappings
   url: https://biopragmatics.github.io/biomappings
   github: biopragmatics/biomappings
-  description: Community curated and predicted equivalences and related mappings between named biological entities that are not available from primary sources.
+  description:
+    Community curated and predicted equivalences and related mappings between
+    named biological entities that are not available from primary sources.
   logo: /img/biomappings.png
   pypi: biomappings
   docs: https://biomappings.readthedocs.io
@@ -27,21 +31,46 @@
 - name: Semantic Reasoning Assembler
   url: https://biopragmatics.github.io/semra
   github: biopragmatics/semra
-  description: Assembles and reasons over semantic mappings at scale with associated provenance and confidence models.
+  description:
+    Assembles and reasons over semantic mappings at scale with associated
+    provenance and confidence models.
   pypi: semra
   logo: /img/semra.svg
   docs: https://semra.readthedocs.io/
 
+#- name: SSSLM
+#  url: https://ssslm.readthedocs.io
+#  github: cthoyt/ssslm
+#  description: A simple standard for sharing literal mappings
+#  docs: https://ssslm.readthedocs.io
+#  pypi: ssslm
+
 - name: Biosynonyms
   github: biopragmatics/biosynonyms
-  description: Community curated synonyms for biogical entities that are not available from primary sources.
+  description:
+    Community curated synonyms for biological entities that are not available
+    from primary sources.
   logo: /img/biosynonyms.png
+  pypi: biosynoynms
+  docs: https://biosynonyms.readthedocs.io
+  url: https://biosynonyms.readthedocs.io
+
+- name: Biolexica
+  github: biopragmatics/biolexica
+  description:
+    Assembles and applies coherent biomedical lexical indices for NER and NEN
+  pypi: biolexica
+  docs: https://biolexica.readthedocs.io
+  url: https://biolexica.readthedocs.io
+  logo: /img/biolexica.svg
 
 - name: Bioontologies
   url: https://bioontologies.readthedocs.io
   docs: https://bioontologies.readthedocs.io
   github: biopragmatics/bioontologies
-  description: A wrapper around ROBOT and other low-level functionalities for biomedical ontologies.
+  description:
+    A wrapper around ROBOT and other low-level functionalities for biomedical
+    ontologies.
   logo: /img/bioontologies.png
   pypi: bioontologies
 
@@ -49,7 +78,9 @@
   url: https://pyobo.readthedocs.io
   docs: https://pyobo.readthedocs.io
   github: pyobo/pyobo
-  description: A software packaging for unified access to biomedical ontologies, databases, and semantic spaces using the OBO formalism.
+  description:
+    A software packaging for unified access to biomedical ontologies, databases,
+    and semantic spaces using the OBO formalism.
   logo: /img/pyobo.png
   pypi: pyobo
 
@@ -57,7 +88,9 @@
   url: http://biolookup.io
   github: biopragmatics/biolookup
   docker: biopragmatics/biolookup
-  description: A web service for retrieving metadata and ontological information about biomedical entities
+  description:
+    A web service for retrieving metadata and ontological information about
+    biomedical entities
   logo: /img/biolookup.svg
   api: http://biolookup.io/apidocs/
   docs: https://biolookup.readthedocs.io
