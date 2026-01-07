@@ -32,7 +32,7 @@ problems in the life and natural sciences.
 ## Acknowledgements
 
 The Biopragmatics Stack is developed by the
-[Institute for Inorganic Chemistry](https://www.iac.rwth-aachen.de) at RWTH
+[Institute of Inorganic Chemistry](https://www.iac.rwth-aachen.de) at RWTH
 Aachen University as part of the [NFDI4Chem](https://nf4i4chem.de) project with
 support from the
 [Gyori Lab for Computational Biomedicine](https://gyorilab.github.io) at
